@@ -1,0 +1,16 @@
+services:
+
+  # see https://docs.localstack.cloud/references/configuration/ for more LocalStack configuration info
+  localstack:
+    container_name: "localstack"
+    image: localstack/localstack:4.0.0
+    ports:
+      - "4566:4566"
+      - "4510-4559:4510-4559"
+    environment:
+      - DEBUG=0
+      - SERVICES=ses
+    volumes:
+      - "./volume:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ./.localstack/bootstrap.sh:/etc/localstack/init/ready.d/script.sh
