@@ -13,4 +13,4 @@ services:
     volumes:
       - "./volume:/var/lib/localstack"
       - "/var/run/docker.sock:/var/run/docker.sock"
-      - ./.localstack/bootstrap.sh:/etc/localstack/init/ready.d/script.sh
+      - "./.localstack/ready.sh:/etc/localstack/init/ready.d/script.sh"

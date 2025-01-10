@@ -10,7 +10,7 @@ POST https://localhost:7172/send-email
 Content-Type: application/json
 
 {
-    "recipient": "recipient@demo.app",
+    "recipient": "hello@bob.com",
     "content": "Hello Bob!"
 }
 

@@ -40,7 +40,7 @@ app.MapPost("send-email", async ([FromBody] SendEmailRequest request, [FromServi
             Subject = new()
             {
                 Charset = "UTF-8",
-                Data = "Hello via LocalStack!"
+                Data = $"Hello via LocalStack at {DateTime.UtcNow:u}!"
             },
         }
     });

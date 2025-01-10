@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".localstack", ".localstack", "{9A8CE818-5C07-4F02-B1BA-A6F3A8B47E97}"
 	ProjectSection(SolutionItems) = preProject
-		.localstack\bootstrap.sh = .localstack\bootstrap.sh
+		.localstack\ready.sh = .localstack\ready.sh
 	EndProjectSection
 EndProject
 Global
