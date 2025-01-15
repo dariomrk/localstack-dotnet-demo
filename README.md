@@ -1,7 +1,7 @@
 # LocalStack + .NET Demo
 
 This repo demonstrates local AWS service emulation (SES, in this case) with LocalStack in a .NET environment.  
-Read more about it [here](about:blank).
+Read more about it [here](https://codemage.co/blog/4-emulating-aws-services-with-localstack-for-.net-developers).
 
 # Prerequisites
 
@@ -18,7 +18,7 @@ Read more about it [here](about:blank).
 > [!WARNING]
 > Assuming no configuration changes
 
-**Visual Studio:**
+**Visual Studio**
 
 1. Open the `app.http`.
 2. Execute the `POST https://localhost:7172/send-email` to invoke the `send-email` endpoint.
